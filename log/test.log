@@ -78,3 +78,70 @@ Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
 
 Started GET "/static_pages/about" for 127.0.0.1 at 2012-07-05 10:50:33 -0400
   [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-05 10:52:26 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-07-05 10:52:26 -0400
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2012-07-05 10:52:26 -0400
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-05 10:53:07 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-07-05 10:53:08 -0400
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2012-07-05 10:53:08 -0400
+Processing by StaticPagesController#about as HTML
+Completed 500 Internal Server Error in 60ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-05 10:54:13 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-07-05 10:54:13 -0400
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2012-07-05 10:54:13 -0400
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
