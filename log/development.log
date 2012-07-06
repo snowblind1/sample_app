@@ -303,3 +303,231 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/application
 
   Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
 Connecting to database specified by database.yml
+
+
+Started GET "/static_pages/home" for 192.168.238.1 at 2012-07-06 09:16:07 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 124ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 192.168.238.1 at 2012-07-06 09:16:08 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/static_pages/home" for 192.168.238.1 at 2012-07-06 09:18:23 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 192.168.238.1 at 2012-07-06 09:18:24 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/static_pages/home" for 192.168.238.1 at 2012-07-06 10:34:12 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 192.168.238.1 at 2012-07-06 10:34:13 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (55.1ms)
+
+
+Started GET "/static_pages/home" for 192.168.238.1 at 2012-07-06 10:34:21 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 192.168.238.1 at 2012-07-06 10:34:21 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/static_pages/home" for 192.168.238.1 at 2012-07-06 10:34:51 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 192.168.238.1 at 2012-07-06 10:34:51 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/static_pages/home" for 192.168.238.1 at 2012-07-06 10:36:45 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 192.168.238.1 at 2012-07-06 10:36:46 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/static_pages/home" for 192.168.238.1 at 2012-07-06 10:37:02 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for 192.168.238.1 at 2012-07-06 10:37:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /usr/local/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /usr/local/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.5ms)

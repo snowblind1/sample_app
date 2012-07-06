@@ -1561,3 +1561,4 @@ Started GET "/static_pages/contact" for 127.0.0.1 at 2012-07-05 16:17:00 -0400
 Processing by StaticPagesController#contact as HTML
 Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
